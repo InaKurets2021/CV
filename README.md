@@ -34,4 +34,4 @@
 
 ### Демо сайта:
 
-[CV](https://inakurets2021.github.io/ProjectsJS/)
+[CV](https://inakurets2021.github.io/CV/)
