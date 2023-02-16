@@ -1,0 +1,72 @@
+html {
+  font-size: 16px;
+  scroll-behavior: smooth; /*  Плавный скролл по якарям */
+}
+body {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  background: var(--white-color);
+}
+body.no-scroll {
+  overflow: hidden;
+}
+body.loading * {
+  transition: 0s !important;
+  overflow: hidden;
+}
+.main {
+  margin-top: 35px;
+  
+}
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  
+}
+.title {
+  position: relative;
+  text-transform: uppercase;
+  color: var(--dark-color);
+  background: var(--accent-color);
+  transition: color 0.5s, background 0.5s;
+}
+.plus {
+  position: absolute;
+  right: 20px;
+  top: 46%;
+  width: 18px;
+  height: 2px;
+  background-color: var(--dark-color);
+  display: none;
+}
+.plus::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 18px;
+  height: 2px;
+  background-color: var(--dark-color);
+  transform: rotate(90deg);
+  transition: all 0.5s;
+}
+.plus.transform {
+  background-color: transparent;
+}
+.plus.transform::after {
+  transform: rotate(0);
+}
+@media (max-width: 480px) {
+  .plus {
+    display: block;
+  }
+  .content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+  }
+}

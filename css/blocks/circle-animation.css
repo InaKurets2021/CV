@@ -1,0 +1,45 @@
+.circle-animation {
+  position: fixed;
+  z-index: 10;
+  right: 30px;
+  bottom: 30px;
+ 
+  }
+.circle-animation__name {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle-animation__text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  animation: rotateText 10s linear infinite;
+  color: var(--dark-color);
+}
+.circle-animation__char {
+  position: absolute;
+  left: 50%;
+  font-size: 20px;
+  transform-origin: 0 100px;
+}
+.circle-animation:hover .circle-animation__text {
+  animation-play-state: paused;
+}
+@keyframes rotateText {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@media (max-width: 480px) {
+  .circle-animation {
+    display: none;
+  }
+}

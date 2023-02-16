@@ -1,0 +1,51 @@
+.work-experience {
+  margin-bottom: 30px;
+}
+.work-experience__title {
+  padding: 20px 0;
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 28px;
+  margin-bottom: 25px;
+  background: var(--back-color);
+  color: var(--word-color);
+}
+.work-experience__subtitle {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: var(--word-color);
+}
+.work-experience__date {
+  font-weight: bold;
+  margin-bottom: 32px;
+  color: var(--word-color);
+}
+.work-experience__list {
+  margin-top: 16px;
+  margin-bottom: 32px;
+  color: var(--dark-color);
+}
+.work-experience__item {
+  padding-left: 16px;
+  font-size: 16px;
+  line-height: 16px;
+  position: relative;
+ 
+}
+.work-experience__item:not(:last-child) {
+  margin-bottom: 16px;
+}
+.work-experience__item::after {
+  content: "";
+  display: block;
+  width: 14px;
+  height: 14px;
+  background: url("../../img/checkmark_black.svg");
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  
+}

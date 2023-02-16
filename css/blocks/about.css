@@ -1,0 +1,18 @@
+.about {
+  margin-bottom: 30px;
+}
+.about__title {
+  padding: 20px 0;
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 28px;
+  margin-bottom: 25px;
+  background: var(--back-color);
+  color: var(--word-color);
+}
+.about__text {
+  font-size: 18px;
+  text-align: center;
+  color: var(--dark-color);
+}

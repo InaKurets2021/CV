@@ -1,0 +1,24 @@
+@import url("./nullstyle.css");
+@import url("./fonts.css");
+@import url("./vars.css");
+@import url("./core.css");
+
+@import url("./blocks/circle-animation.css");
+@import url("./blocks/header.css");
+@import url("./blocks/setting.css");
+@import url("./blocks/burger.css");
+@import url("./blocks/menu.css");
+@import url("./blocks/about-information.css");
+@import url("./blocks/left-aside.css");
+@import url("./blocks/about.css");
+@import url("./blocks/skills.css");
+@import url("./blocks/rating.css");
+@import url("./blocks/education.css");
+@import url("./blocks/right-aside.css");
+@import url("./blocks/work-experience.css");
+@import url("./blocks/socials.css");
+@import url("./blocks/portfolio.css");
+@import url("./blocks/tabs.css");
+@import url("./blocks/slider.css");
+@import url("./blocks/dots.css");
+@import url("./blocks/footer.css");

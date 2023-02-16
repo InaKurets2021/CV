@@ -1,0 +1,15 @@
+.portfolio {
+  margin-top: 50px;
+  padding: 65px 0;
+  background-color: var(--accent-color);
+  transition: background-color 0.5s;
+}
+.portfolio__title {
+  margin-bottom: 16px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--word-color);
+}

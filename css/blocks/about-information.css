@@ -1,0 +1,9 @@
+.about-information {
+  display: flex;
+  
+}
+@media (max-width: 980px) {
+  .about-information {
+    flex-direction: column;
+  }
+}

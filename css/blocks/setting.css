@@ -1,0 +1,40 @@
+.settings {
+  max-width: 200px;
+  min-height: 40px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.settings__language {
+  display: flex;
+  gap: 20px;
+}
+.settings__language-btn {
+  background: none;
+  color: var(--dark-color);
+  transition: color 0.5s;
+  text-transform: uppercase;
+  position: relative;
+}
+.settings__language-btn::after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  background-color: var(--dark-color);
+  opacity: 0;
+  transition: background-color 0.5s;
+}
+.settings__language-btn.active::after {
+  opacity: 1;
+}
+.settings__theme-btn {
+  background: #fff;
+  /* box-shadow: 0 0 4px 3px rgb(39 38 40); */
+  padding: 10px;
+  border-radius: 10px;
+}

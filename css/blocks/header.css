@@ -1,0 +1,13 @@
+.header {
+  padding-top: 15px;
+}
+.header__bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: var(--accent-color);
+  width: 100%;
+  min-height: 640px;
+  
+}
