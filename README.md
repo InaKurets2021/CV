@@ -35,7 +35,7 @@
 - Slider
 - Burger
 - Animation
-- Accordeon
+- Accordion
 - Switching themes
 - Translating the page into another language
 
