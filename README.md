@@ -16,8 +16,11 @@
 ### Реализовано в проекте:
 
 - Слайдер
-
-
+- Бургер
+- Анимация
+- Аккордеон
+- Переключение темы
+- Перевод страницы на другой язык
 
 
 ### Stack:
@@ -30,6 +33,12 @@
 ### Implemented in the project:
 
 - Slider
+- Burger
+- Animation
+- Accordeon
+- Switching themes
+- Translating the page into another language
+
 
 
 ### Демо сайта:
