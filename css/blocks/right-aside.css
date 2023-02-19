@@ -3,28 +3,29 @@
   padding-top: 80px;
   max-width: 650px;
   width: 100%;
-
 }
 .right-aside__info {
   margin-bottom: 124px;
 }
 .right-aside__firstname {
-  font-size: 150px;
+  font-size: 120px;
   line-height: 160px;
   font-family: "Dancing Script", cursive;
   letter-spacing: 10px;
   color: var(--dark-color);
   transition: color 0.5s;
+  animation: leftAnimation 1.2s ease-out;
 }
 .right-aside__lastname {
   margin-left: 70px;
-  font-size: 150px;
+  font-size: 120px;
   line-height: 160px;
   font-family: "Dancing Script", cursive;
   letter-spacing: 10px;
   margin-bottom: 30px;
   color: var(--dark-color);
   transition: color 0.5s;
+  animation: leftAnimation 1.2s ease-out;
 }
 .right-aside__position {
   font-size: 25px;
@@ -36,6 +37,7 @@
   text-transform: uppercase;
   font-weight: bold;
   transition: color 0.5s;
+  animation: rightAnimation 1.5s ease-out;
 }
 @media (max-width: 1200px) {
   .right-aside__firstname {

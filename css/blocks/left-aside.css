@@ -28,14 +28,14 @@
 .left-aside__firstname {
   font-size: 120px;
   line-height: 130px;
-  font-family: "Dancing Script", cursive;
+  font-family: 'Zeyada', cursive;
   letter-spacing: 10px;
   color: var(--dark-color);
 }
 .left-aside__lastname {
   font-size: 120px;
   line-height: 130px;
-  font-family: "Dancing Script", cursive;
+  font-family: 'Zeyada', cursive;
   letter-spacing: 10px;
   margin-bottom: 30px;
   color: var(--dark-color);
